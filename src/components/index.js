@@ -1,6 +1,2 @@
-import Container from '../components/container'
-import Card from './card'
-export default {
-  Container,
-  Card
-}
+export {default as Container} from './Container'
+export {default as Card} from './Card'

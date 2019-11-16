@@ -1,54 +1,46 @@
 import React, {useState} from "react";
 
 import { render } from "react-dom";
-import { Button, Icon, Dropdown } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react';
+import tarotCards from './static/cards'
 import { ThemeProvider } from "styled-components";
-// import {Container, Card} from './components'
+import {Card, Container} from './components'
 import 'semantic-ui-css/semantic.min.css'
 import lightTheme from "./themes/light";
-import Card from './components/card'
-
-const options = [
-  { key: 'light', text: 'light', icon: 'lightbulb' },
-  { key: 'dark', text: 'dark', icon: 'lightbulb-slash' },
-  { key: 'psychedelic', text: 'psychedelic', icon: 'poo-storm' },
-]
+import darkTheme from "./themes/dark";
 
 const App = () => {
-  const [theme, setTheme] = useState(true)
-  const toggleTheme = () => setTheme(!theme)
-// class App extends React.Component {
+  const [isDark, setDark] = useState(true)
+  const [cards] = useState(tarotCards)
+  const [index, setIndex] = useState(2)
+  const toggleTheme = () => setDark(!isDark)
+  const card = cards[index]
+  console.log('card: ', card);
+  const urlName = card.name.replace(/\s+/g, '-').toLowerCase()
+  console.log('urlName: ', urlName);
 
-//   render() {
+  const imageUrl = `https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-06.jpg`
     return (
-      <ThemeProvider theme={lightTheme}>
-    {/* <Container> */}
-      <div className='p10 flex jcfe'>
-        <Icon name={theme ? 'hide' : 'unhide'} onClick={toggleTheme} />
-      {/* <Dropdown
-        trigger={<Icon name='unhide'/>}
-        options={options}
-        pointing='top left'
-        icon={null}
-      /> */}
-       {/* <Button.Group>
-          <Button>Light</Button>
-          <Button.Or />
-          <Button color='black'>Dark</Button>
-          <Button.Or />
-          <Button color='teal'>Psychic</Button>
-        </Button.Group> */}
-      </div>
-      <div className="Aligner column">
-        <div className="Aligner">
-          <Card
-            name="Card 4"
-            url="https://www.instagram.com/"
-            about="social media"
+      <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+        <Container>
+        <div className='p10 flex jcfe'>
+          <Icon 
+            className='pointer' 
+            name={isDark ? 'hide' : 'unhide'} 
+            onClick={toggleTheme} 
           />
         </div>
-      </div>
-      {/* </Container> */}
+          <div className="Aligner column">
+            <div className="Aligner">
+              <Card
+                name="Card 4"
+                url="https://www.instagram.com/"
+                about="social media"
+                img={imageUrl}
+              />
+            </div>
+          </div>
+        </Container>
       </ThemeProvider>
     );
   }

@@ -17,12 +17,14 @@ const StyledCard = styled.div`
   font-family: sans-serif;
 `;
 
-const Card = props => {
+const Card = ({img, name, url, about}) => {
   return (
     <StyledCard>
-      <h1>{props.name}</h1>
-      <h2>{props.url}</h2>
-      <h2>{props.about}</h2>
+      <h1>{name}</h1>
+      <h2>{url}</h2>
+      <h2>{about}</h2>
+      hi
+      <img src={img} alt=""/>
     </StyledCard>
   );
 };
