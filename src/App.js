@@ -17,9 +17,7 @@ const App = () => {
   const toggleTheme = () => setDark(!isDark)
   const toggleDweeb = () => setDweeb(!isDweeb)
   const card = cards[index]
-  console.log('card: ', card);
   const urlName = card.name.replace(/\s+/g, '-').toLowerCase()
-  console.log('urlName: ', urlName);
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
