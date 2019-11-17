@@ -10,14 +10,12 @@ import lightTheme from "./themes/light";
 import darkTheme from "./themes/dark";
 
 const App = () => {
-  const [isDark, setDark] = useState(true)
+  const [isDark, setDark] = useState(false)
   const [cards] = useState(tarotCards)
   const [index, setIndex] = useState(2)
   const toggleTheme = () => setDark(!isDark)
   const card = cards[index]
-  console.log('card: ', card);
   const urlName = card.name.replace(/\s+/g, '-').toLowerCase()
-  console.log('urlName: ', urlName);
 
   const imageUrl = `https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-06.jpg`
     return (
