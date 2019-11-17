@@ -17,14 +17,26 @@ const StyledCard = styled.div`
   font-family: sans-serif;
 `;
 
+const StyledImg = styled.img`
+  margin:0px  -4px -4px;
+  width:102%;
+`
+
+const ImgWrapper = styled.div`
+  text-align: center;
+  margin-top: 3px;
+  width:200px; /*container-width*/
+  overflow: hidden; /*hide bounds of image */
+  margin:0; /*reset margin of figure tag*/
+  border-radius: 5px;
+`
+
 const Card = ({img, name, url, about}) => {
   return (
     <StyledCard>
-      <h1>{name}</h1>
-      <h2>{url}</h2>
-      <h2>{about}</h2>
-      hi
-      <img src={img} alt=""/>
+      <ImgWrapper>
+        <StyledImg src={img} alt={name}/>
+      </ImgWrapper>
     </StyledCard>
   );
 };

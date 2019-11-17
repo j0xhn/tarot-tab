@@ -33,9 +33,6 @@ const App = () => {
           <div className="Aligner column">
             <div className="Aligner">
               <Card
-                name="Card 4"
-                url="https://www.instagram.com/"
-                about="social media"
                 img={imageUrl}
               />
             </div>
