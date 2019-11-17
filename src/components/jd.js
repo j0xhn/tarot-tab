@@ -1,5 +1,6 @@
 import React from "react";
 import staticCards from '../static/cards'
+import {Description} from '../components'
 import { getRandomNumber } from '../utils'
 
 import Card from "./card";
@@ -30,11 +31,13 @@ const JD = () => {
   })
 
   const card = cards[getRandomNumber()]
+  // const direction = getRandomNumber({customKey = 'direction'}) 
   console.log('card.imageUrl', card.imageUrl, card)
   return (
     <div className="Aligner column">
       <div className="Aligner">
         <Card img={card.imageUrl} />
+        <Description>{card.idesc}</Description>
       </div>
     </div>
   );

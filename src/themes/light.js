@@ -5,5 +5,8 @@ export default {
     buttonBackground: "#5E81AC",
     textColor: "#2E3440",
     buttonColor: "#ECEFF4"
+  },
+  textSizes: {
+    description: '14px'
   }
 };

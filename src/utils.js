@@ -1,7 +1,14 @@
 import store from 'local-storage'
-const key = 'tt_entropy'
+const default_key = 'tt_random'
 export const getRandomNumber = (meta = {}) => {
-  const {onceADay = true} = meta
+  const {
+    onceADay = true,
+    customKey
+  } = meta
+  const key = customKey 
+    ? 'tt_' + customKey 
+    : default_key
+
   const exists = store.get(key)
   if (exists && onceADay){
     return exists
