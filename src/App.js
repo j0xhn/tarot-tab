@@ -1,13 +1,10 @@
 import React, {useState} from "react";
-
 import { render } from "react-dom";
+
+import 'semantic-ui-css/semantic.min.css'
 import { Icon } from 'semantic-ui-react';
 import tarotCards from './static/cards'
-import { ThemeProvider } from "styled-components";
-import {Container, JD} from './components'
-import 'semantic-ui-css/semantic.min.css'
-import lightTheme from "./themes/light";
-import darkTheme from "./themes/dark";
+import {JD, JJ} from './components'
 
 const App = () => {
   const [isDark, setDark] = useState(true)
@@ -16,9 +13,8 @@ const App = () => {
   const toggleDweeb = () => setDweeb(!isDweeb)
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
-      <Container>
-      <div className='p10 flex jcfe'>
+    <>
+      <div className='fixed top10 right10'>
         <Icon 
           className='pointer' 
           name={isDark ? 'hide' : 'unhide'} 
@@ -30,9 +26,8 @@ const App = () => {
           onClick={toggleDweeb} 
         />
       </div>
-      {isDweeb ? <JD /> : <JJ />}
-      </Container>
-    </ThemeProvider>
+      {isDweeb ? <JD isDark={isDark} /> : <JJ isDark={isDark} />}
+    </>
   );
 }
 render(React.createElement(App), document.getElementById("root"));
