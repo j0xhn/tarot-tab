@@ -12,12 +12,8 @@ import darkTheme from "./themes/dark";
 const App = () => {
   const [isDark, setDark] = useState(true)
   const [isDweeb, setDweeb] = useState(true)
-  const [cards] = useState(tarotCards)
-  const [index, setIndex] = useState(2)
   const toggleTheme = () => setDark(!isDark)
   const toggleDweeb = () => setDweeb(!isDweeb)
-  const card = cards[index]
-  const urlName = card.name.replace(/\s+/g, '-').toLowerCase()
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
