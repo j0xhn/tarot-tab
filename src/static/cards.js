@@ -536,7 +536,8 @@ export default [
         "type":"minor",
         "meaning_up":"Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management.",
         "meaning_rev":"Prodigality, dissipation, liberality, luxury; unfavourable news.",
-        "desc":"A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him."
+        "desc":"A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-page.jpg"
      },
      {
         "name":"Knight of Pentacles",
@@ -547,7 +548,8 @@ export default [
         "type":"minor",
         "meaning_up":"Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane.",
         "meaning_rev":"inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness.",
-        "desc":"He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein."
+        "desc":"He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-knight.jpg"
      },
      {
         "name":"Queen of Pentacles",
@@ -558,7 +560,8 @@ export default [
         "type":"minor",
         "meaning_up":"Opulence, generosity, magnificence, security, liberty.",
         "meaning_rev":"Evil, suspicion, suspense, fear, mistrust.",
-        "desc":"The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein."
+        "desc":"The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-queen.jpg"
      },
      {
         "name":"King of Pentacles",
@@ -569,7 +572,8 @@ export default [
         "type":"minor",
         "meaning_up":"Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths.",
         "meaning_rev":"Vice, weakness, ugliness, perversity, corruption, peril.",
-        "desc":"The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money."
+        "desc":"The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-king.jpg"
      },
      {
         "name":"Ace of Pentacles",
@@ -580,7 +584,8 @@ export default [
         "type":"minor",
         "meaning_up":"Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.",
         "meaning_rev":"The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not.",
-        "desc":"A hand--issuing, as usual, from a cloud--holds up a pentacle."
+        "desc":"A hand--issuing, as usual, from a cloud--holds up a pentacle.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-ace.jpg"
      },
      {
         "name":"Two of Pentacles",
@@ -591,7 +596,8 @@ export default [
         "type":"minor",
         "meaning_up":"On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
         "meaning_rev":"Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.",
-        "desc":"A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed."
+        "desc":"A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-02.jpg"
      },
      {
         "name":"Three of Pentacles",
@@ -602,7 +608,8 @@ export default [
         "type":"minor",
         "meaning_up":"Métier, trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.",
         "meaning_rev":"Mediocrity, in work and otherwise, puerility, pettiness, weakness.",
-        "desc":"A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest."
+        "desc":"A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-03.jpg"
      },
      {
         "name":"Four of Pentacles",
@@ -613,7 +620,8 @@ export default [
         "type":"minor",
         "meaning_up":"The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
         "meaning_rev":"Suspense, delay, opposition.",
-        "desc":"A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has."
+       "desc":"A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-04.jpg"
      },
      {
         "name":"Five of Pentacles",
@@ -624,7 +632,8 @@ export default [
         "type":"minor",
         "meaning_up":"The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise. For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress; also concordance, affinities. These alternatives cannot be harmonized.",
         "meaning_rev":"Disorder, chaos, ruin, discord, profligacy.",
-        "desc":"Two mendicants in a snow-storm pass a lighted casement."
+        "desc":"Two mendicants in a snow-storm pass a lighted casement.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-05.jpg"
      },
      {
         "name":"Six of Pentacles",
@@ -635,7 +644,8 @@ export default [
         "type":"minor",
         "meaning_up":"Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.",
         "meaning_rev":"Desire, cupidity, envy, jealousy, illusion.",
-        "desc":"A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart."
+        "desc":"A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-06.jpg"
      },
      {
         "name":"Seven of Pentacles",
@@ -646,7 +656,8 @@ export default [
         "type":"minor",
         "meaning_up":"These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.",
         "meaning_rev":"Cause for anxiety regarding money which it may be proposed to lend.",
-        "desc":"A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there."
+        "desc":"A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-07.jpg"
      },
      {
         "name":"Eight of Pentacles",
@@ -657,7 +668,8 @@ export default [
         "type":"minor",
         "meaning_up":"Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.",
         "meaning_rev":"Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue.",
-        "desc":"An artist in stone at his work, which he exhibits in the form of trophies."
+        "desc":"An artist in stone at his work, which he exhibits in the form of trophies.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-08.jpg"
      },
      {
         "name":"Nine of Pentacles",
@@ -668,7 +680,8 @@ export default [
         "type":"minor",
         "meaning_up":"Prudence, safety, success, accomplishment, certitude, discernment.",
         "meaning_rev":"Roguery, deception, voided project, bad faith.",
-        "desc":"A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being."
+       "desc":"A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-09.jpg"
      },
      {
         "name":"Ten of Pentacles",
@@ -679,7 +692,8 @@ export default [
         "type":"minor",
         "meaning_up":"Gain, riches; family matters, archives, extraction, the abode of a family.",
         "meaning_rev":"Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.",
-        "desc":"A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child's hand is on one of them."
+        "desc":"A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child's hand is on one of them.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-10.jpg"
      },
      {
         "name":"Page of Swords",
@@ -690,7 +704,8 @@ export default [
         "type":"minor",
         "meaning_up":"Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
         "meaning_rev":"More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
-        "desc":"A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment."
+        "desc":"A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-page.jpg"
      },
      {
         "name":"Knight of Swords",
@@ -701,7 +716,8 @@ export default [
         "type":"minor",
         "meaning_up":"Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
         "meaning_rev":"Imprudence, incapacity, extravagance.",
-        "desc":"He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart."
+        "desc":"He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/04/ET-SWORDS-knight.jpg"
      },
      {
         "name":"Queen of Swords",
@@ -712,7 +728,8 @@ export default [
         "type":"minor",
         "meaning_up":"Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
         "meaning_rev":"Malice, bigotry, artifice, prudery, bale, deceit.",
-        "desc":"Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power."
+       "desc":"Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power.",
+       "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-queen.jpg"
      },
      {
         "name":"King of Swords",
@@ -723,7 +740,8 @@ export default [
         "type":"minor",
         "meaning_up":"Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth.",
         "meaning_rev":"Cruelty, perversity, barbarity, perfidy, evil intention.",
-        "desc":"He sits in judgment, holding the unsheathed sign of his suit. He recalls, of course, the conventional Symbol of justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office."
+        "desc":"He sits in judgment, holding the unsheathed sign of his suit. He recalls, of course, the conventional Symbol of justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office.",
+       "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-king.jpg"
      },
      {
         "name":"Ace of Swords",
@@ -734,7 +752,8 @@ export default [
         "type":"minor",
         "meaning_up":"Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling.",
         "meaning_rev":"The same, but the results are disastrous; another account says--conception, childbirth, augmentation, multiplicity.",
-        "desc":"A hand issues from a cloud, grasping as word, the point of which is encircled by a crown."
+        "desc":"A hand issues from a cloud, grasping as word, the point of which is encircled by a crown.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-01.jpg"
      },
      {
         "name":"Two of Swords",
@@ -745,7 +764,8 @@ export default [
         "type":"minor",
         "meaning_up":"Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.",
         "meaning_rev":"Imposture, falsehood, duplicity, disloyalty.",
-        "desc":"A hoodwinked female figure balances two swords upon her shoulders."
+        "desc":"A hoodwinked female figure balances two swords upon her shoulders.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-02.jpg"
      },
      {
         "name":"Three of Swords",
@@ -756,7 +776,8 @@ export default [
         "type":"minor",
         "meaning_up":"Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.",
         "meaning_rev":"Mental alienation, error, loss, distraction, disorder, confusion.",
-        "desc":"Three swords piercing a heart; cloud and rain behind."
+        "desc":"Three swords piercing a heart; cloud and rain behind.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-03.jpg"
      },
      {
         "name":"Four of Swords",
@@ -767,7 +788,9 @@ export default [
         "type":"minor",
         "meaning_up":"Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
         "meaning_rev":"Wise administration, circumspection, economy, avarice, precaution, testament.",
-        "desc":"The effigy of a knight in the attitude of prayer, at full length upon his tomb."
+        "desc":"The effigy of a knight in the attitude of prayer, at full length upon his tomb.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-04.jpg"
+
      },
      {
         "name":"Five of Swords",
@@ -778,7 +801,8 @@ export default [
         "type":"minor",
         "meaning_up":"Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.",
         "meaning_rev":"The same; burial and obsequies.",
-        "desc":"A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field."
+        "desc":"A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-05.jpg"
      },
      {
         "name":"Six of Swords",
@@ -789,7 +813,9 @@ export default [
         "type":"minor",
         "meaning_up":"journey by water, route, way, envoy, commissionary, expedient.",
         "meaning_rev":"Declaration, confession, publicity; one account says that it is a proposal of love.",
-        "desc":"A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength."
+        "desc":"A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-06.jpg"
+
      },
      {
         "name":"Seven of Swords",
@@ -800,7 +826,8 @@ export default [
         "type":"minor",
         "meaning_up":"Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
         "meaning_rev":"Good advice, counsel, instruction, slander, babbling.",
-        "desc":"A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand."
+        "desc":"A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-07.jpg"
      },
      {
         "name":"Eight of Swords",
@@ -811,7 +838,9 @@ export default [
         "type":"minor",
         "meaning_up":"Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.",
         "meaning_rev":"Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality.",
-        "desc":"A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage."
+        "desc":"A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-08.jpg"
+
      },
      {
         "name":"Nine of Swords",
@@ -822,7 +851,8 @@ export default [
         "type":"minor",
         "meaning_up":"Death, failure, miscarriage, delay, deception, disappointment, despair.",
         "meaning_rev":"Imprisonment, suspicion, doubt, reasonable fear, shame.",
-        "desc":"One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation."
+        "desc":"One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-09.jpg"
      },
      {
         "name":"Ten of Swords",
@@ -833,6 +863,7 @@ export default [
         "type":"minor",
         "meaning_up":"Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.",
         "meaning_rev":"Advantage, profit, success, favour, but none of these are permanent; also power and authority.",
-        "desc":"A prostrate figure, pierced by all the swords belonging to the card."
+        "desc":"A prostrate figure, pierced by all the swords belonging to the card.",
+        "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-10.jpg"
      }
   ]
