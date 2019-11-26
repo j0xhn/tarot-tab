@@ -3,7 +3,6 @@ import { render } from "react-dom";
 
 import 'semantic-ui-css/semantic.min.css'
 import { Icon } from 'semantic-ui-react';
-import tarotCards from './static/cards'
 import {JD, JJ} from './components'
 
 const App = () => {
@@ -20,11 +19,11 @@ const App = () => {
           name={isDark ? 'hide' : 'unhide'} 
           onClick={toggleTheme} 
         />
-        <Icon 
+        {/* <Icon 
           className='pointer' 
           name={isDweeb ? 'unhide' : 'hide'} 
           onClick={toggleDweeb} 
-        />
+        /> */}
       </div>
       {isDweeb ? <JD isDark={isDark} /> : <JJ isDark={isDark} />}
     </>

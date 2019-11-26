@@ -40,29 +40,3 @@ export const generateRandomDeckNumber = (meta = {}) => {
   const {cardsInDeck = 78} = meta
   return Math.floor(Math.random()*cardsInDeck) + 1
 }
-
-export const getAppData = (meta = {}) => {
-  const {
-    onceADay = true,
-    customKey
-  } = meta
-  const key = customKey 
-    ? 'tt_' + customKey 
-    : default_key
-
-  const exists = store.get(key)
-  const lastCheck = store.get(time_key)
-  var currentTime = new Date();
-  console.log('currentTime: ', currentTime);
-  const over24Hours = lastCheck
-  if (exists && onceADay){
-    return exists
-  } else {
-    const number = generateRandomDeckNumber()
-    store.set(key, {
-      number: number,
-      orientation: !number % 2
-    })
-    return number
-  }
-}

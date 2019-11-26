@@ -4,6 +4,8 @@ import styled from "styled-components";
 const StyledImg = styled.img`
   margin:0px  -4px -7px;
   width:102%;
+  transform: ${props => `scale(${props.orientation}, ${props.orientation})`};
+  filter: grayscale(60%);
 `
 
 const ImgWrapper = styled.div`
@@ -11,14 +13,13 @@ const ImgWrapper = styled.div`
   margin-top: 3px;
   width:300px; /*container-width*/
   overflow: hidden; /*hide bounds of image */
-  margin:0; /*reset margin of figure tag*/
   border-radius: 5px;
 `
 
-const Card = ({img, name, url, about}) => {
+const Card = ({img, name, orientation, ...others}) => {
   return (
-    <ImgWrapper>
-      <StyledImg src={img} alt={name}/>
+    <ImgWrapper {...others}>
+      <StyledImg src={img} alt={name} orientation={orientation} />
     </ImgWrapper>
   );
 };
