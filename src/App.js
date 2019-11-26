@@ -7,7 +7,7 @@ import tarotCards from './static/cards'
 import {JD, JJ} from './components'
 
 const App = () => {
-  const [isDark, setDark] = useState(true)
+  const [isDark, setDark] = useState(false)
   const [isDweeb, setDweeb] = useState(true)
   const toggleTheme = () => setDark(!isDark)
   const toggleDweeb = () => setDweeb(!isDweeb)

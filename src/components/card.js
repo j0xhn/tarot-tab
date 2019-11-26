@@ -1,20 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledCard = styled.div`
-  /* background: ${props => props.theme.colors.cardBackground};
-  padding: 24px; */
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  font-size: 24px;
-  font-family: sans-serif;
-`;
-
 const StyledImg = styled.img`
   margin:0px  -4px -7px;
   width:102%;
@@ -31,11 +17,9 @@ const ImgWrapper = styled.div`
 
 const Card = ({img, name, url, about}) => {
   return (
-    <StyledCard>
-      <ImgWrapper>
-        <StyledImg src={img} alt={name}/>
-      </ImgWrapper>
-    </StyledCard>
+    <ImgWrapper>
+      <StyledImg src={img} alt={name}/>
+    </ImgWrapper>
   );
 };
 
