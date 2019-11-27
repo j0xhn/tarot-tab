@@ -1,14 +1,8 @@
-# Chrome New Tab Override Boilerplate
+# Tarot Tab
 
 ### What is this?
 
-A boilerplate code for a simplistic new-tab-override-extension for Chrome browser to spare you the setup.
-Just run `npm run build` and start editting
-newtab.html file generated in the _dist_ folder
-
-Feel free to fork this repo :)
-
-![](newtab.png)
+Get a daily tarot reading, with added delights 🔮✨🔮
 
 ### Installation
 
@@ -28,4 +22,5 @@ Feel free to fork this repo :)
 
 `npm run dev` will build, watch and serve the files at [http://localhost:1234](http://localhost:1234)
 
-Thanks for [Nikita Landin](https://www.iconfinder.com/NikWB) for using his [icon](https://www.iconfinder.com/icons/4584654/browser_chrome_logo_media_network_social_web_icon) for this demo
+[ ] Create links in JSON for biddy tarot, same way as url to image so we can link
+[ ] Bring over all images so on slow internet, images load instantly... or creating loading state.
