@@ -5,7 +5,7 @@ const StyledImg = styled.img`
   margin:0px  -4px -7px;
   width:102%;
   transform: ${props => `scale(${props.orientation}, ${props.orientation})`};
-  filter: grayscale(60%);
+  filter: grayscale(80%);
 `
 
 const ImgWrapper = styled.div`

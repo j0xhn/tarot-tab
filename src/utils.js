@@ -1,6 +1,18 @@
 import store from 'local-storage'
 const default_key = 'tt_random'
 const time_key = 'tt_last_check'
+
+export const isToday = (someDate) => {
+  const dateToCompare = new Date(someDate)
+  const today = new Date()
+  const is = dateToCompare
+    ? dateToCompare.getDate() == today.getDate() &&
+    dateToCompare.getMonth() == today.getMonth() &&
+    dateToCompare.getFullYear() == today.getFullYear()
+    : dateToCompare
+  return is
+}
+
 export const generateUID = () => {
   // I generate the UID from two parts here 
   // to ensure the random number provide enough bits.

@@ -7,14 +7,15 @@ import lightTheme from '../themes/light'
 import darkTheme from '../themes/dark'
 import {Container, Description} from '../components'
 import { generateRandomNumber } from '../utils'
-import getUserData from '../context/userData'
+import useUserData from '../context/userData'
 
 import Card from "./Card";
 
 const JD = ({isDark}) => {
-  const userData = getUserData() || {}
+  const [userData, setUserData] = useUserData() || {}
   const {cardIndex, cardOrientation} = userData
-  const orientationKey = 'meaning_' + (cardOrientation ? 'rev' : 'up')
+  const orientationWord = cardOrientation > 0 ? 'up' : 'rev'
+  const orientationKey = `meaning_${orientationWord}`
   const card = cards[cardIndex]
   return card ? (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
@@ -24,7 +25,7 @@ const JD = ({isDark}) => {
             <Description>
               {card[orientationKey]}
               <span className='italic ml5 opacity5'>
-                {`(${cardOrientation ? 'rev' : 'up'})`}
+                {`(${orientationWord})`}
               </span>
             </Description>
           </div>
