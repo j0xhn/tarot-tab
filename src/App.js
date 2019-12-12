@@ -22,13 +22,8 @@ const App = () => {
           name={isDark ? 'unhide' : 'hide'} 
           onClick={toggleTheme} 
         />
-        {/* <Icon 
-          className='pointer' 
-          name={isDweeb ? 'unhide' : 'hide'} 
-          onClick={toggleDweeb} 
-        /> */}
       </div>
-      {isDweeb ? <JD isDark={isDark} /> : <JJ isDark={isDark} />}
+      <JD isDark={isDark} />
     </>
   );
 }

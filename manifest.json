@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "tab override",
-  "description": "This extensions demonstrates how to override the new tab page.",
+  "name": "Tarot Tab",
+  "description": "Simple daily tarot readings delivered right to you new tab 🔮✨🥳",
   "version": "1.0",
   "author": "Bar Horing Amir",
   "icons": {

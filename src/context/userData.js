@@ -3,15 +3,19 @@ import {generateUID, generateRandomDeckNumber, isToday} from '../utils'
 import store from 'local-storage'
 export const LS_KEY = 'tt_data'
 export default () => {
-  let appData = store.get(LS_KEY) || {}
-  const [data, setData] = useState(appData)
+  let cache = store.get(LS_KEY) || {}
+  const [data, setData] = useState(cache)
 
   const handleSetData = (incomingData) => {
-    setData(incomingData)
-    store.set(LS_KEY, {
+    const localData = store.get(LS_KEY) || data
+    const dataToSet = {
+      ...localData,
       ...data,
-      ...incomingData 
-    })
+      ...incomingData
+    }
+    console.log('3. setting: ', dataToSet, localData, data, incomingData);
+    setData(dataToSet)
+    store.set(LS_KEY, dataToSet)
   }
 
   useEffect(()=>{
@@ -19,30 +23,27 @@ export default () => {
     const oneday = 60 * 60 * 24 * 1000
     const today = Date.now()
     const hasReadInPast24Hours = isToday(data.lastReading)
+    let { uid, cardIndex } = data
+    console.log('2. state: ', data);
     if (!hasReadInPast24Hours) {
-      let uid = data.uid
-      if (!uid) {
-        uid = generateUID()
-      }
-      const cardIndex = randomNumber
+      // console.log(' not in 24', data)
+      if (!uid) { uid = generateUID() }
+      if (!cardIndex) { cardIndex = randomNumber }
       const cardOrientation = randomNumber % 2 ? 1 : -1
       const newData = {
         uid, 
-        isDark: true,
+        isDark: false,
         cardIndex, 
         cardOrientation, 
         lastReading: today
       }
-      store.set(LS_KEY, {
-        data,
-        ...newData
-      })
-      setData(newData)
-
+      handleSetData(newData)
+      // store.set(LS_KEY,)
+      // setData(newData)
     } else {
-      // console.log('read in past 24:', data)
+      // console.log('in past 24:', data)
     }
-  },[])
-
+  },[data])
+  console.log('1. return', data)
   return [data, handleSetData]
 }
