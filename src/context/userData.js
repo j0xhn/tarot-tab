@@ -3,6 +3,7 @@ import {generateUID, generateRandomDeckNumber, isToday} from '../utils'
 import store from 'local-storage'
 export const LS_KEY = 'tt_data'
 export default () => {
+  // check if data is stored in local cache, set as default data
   let cache = store.get(LS_KEY) || {}
   const [data, setData] = useState(cache)
 
@@ -13,37 +14,35 @@ export default () => {
       ...data,
       ...incomingData
     }
-    console.log('3. setting: ', dataToSet, localData, data, incomingData);
-    setData(dataToSet)
+    // console.log('3. setting: ', dataToSet, localData, data, incomingData);
+    console.log('3. setting: ', dataToSet);
     store.set(LS_KEY, dataToSet)
+    setData(dataToSet)
   }
 
   useEffect(()=>{
-    const randomNumber = generateRandomDeckNumber()
-    const oneday = 60 * 60 * 24 * 1000
-    const today = Date.now()
-    const hasReadInPast24Hours = isToday(data.lastReading)
-    let { uid, cardIndex } = data
-    console.log('2. state: ', data);
+    let {uid, cardIndex, lastReading } = store.get(LS_KEY) || {} 
+    // for some reason the data isn't getting read from store in time from the first set,
+    // so reading from local storage instead
+    const hasReadInPast24Hours = isToday(lastReading)
+    console.log('2. state: ', cardIndex, !hasReadInPast24Hours, lastReading);
     if (!hasReadInPast24Hours) {
-      // console.log(' not in 24', data)
+      console.log('2. generating new')
       if (!uid) { uid = generateUID() }
-      if (!cardIndex) { cardIndex = randomNumber }
-      const cardOrientation = randomNumber % 2 ? 1 : -1
+      const cardIndex = generateRandomDeckNumber()
+      const cardOrientation = cardIndex % 2 
+        ? 1 
+        : -1
       const newData = {
         uid, 
         isDark: false,
-        cardIndex, 
+        cardIndex,
         cardOrientation, 
-        lastReading: today
+        lastReading:  Date.now()
       }
       handleSetData(newData)
-      // store.set(LS_KEY,)
-      // setData(newData)
-    } else {
-      // console.log('in past 24:', data)
     }
   },[data])
-  console.log('1. return', data)
+  // console.log('1. return', data)
   return [data, handleSetData]
 }

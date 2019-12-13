@@ -757,7 +757,7 @@ export default [
     "meaning_up":"Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling.",
     "meaning_rev":"The same, but the results are disastrous; another account says--conception, childbirth, augmentation, multiplicity.",
     "desc":"A hand issues from a cloud, grasping as word, the point of which is encircled by a crown.",
-    "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-01.jpg"
+    "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-SWORDS-ace.jpg"
   },
   {
     "name":"Two of Swords",

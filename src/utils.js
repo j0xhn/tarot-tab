@@ -50,5 +50,7 @@ export function shuffle(array) {
 
 export const generateRandomDeckNumber = (meta = {}) => {
   const {cardsInDeck = 78} = meta
-  return Math.floor(Math.random()*cardsInDeck) + 1
+  const randomNumber = Math.floor(Math.random()*cardsInDeck) + 1
+  console.log('generating',randomNumber)
+  return randomNumber
 }
