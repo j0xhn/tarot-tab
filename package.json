@@ -1,8 +1,7 @@
 {
-  "name": "override-easy-chunk",
+  "name": "Tarot Tab",
   "version": "1.0.0",
-  "description": "",
-  "main": "sketch.js",
+  "description": "Simple daily tarot readings delivered right to you new tab 🔮✨🥳",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/newtab.html",
@@ -12,7 +11,7 @@
     "clean": "rimraf dist"
   },
   "keywords": [],
-  "author": "Bar Horing Amir",
+  "author": "John D. Storey",
   "license": "ISC",
   "devDependencies": {
     "cpy-cli": "^2.0.0",

@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 2.1,
   "name": "Tarot Tab",
   "description": "Simple daily tarot readings delivered right to you new tab 🔮✨🥳",
   "version": "1.0",
-  "author": "Bar Horing Amir",
+  "author": "John D. Storey",
   "icons": {
     "16": "images/16.png",
     "48": "images/48.png",
