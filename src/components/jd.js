@@ -16,8 +16,8 @@ const JD = ({isDark}) => {
   console.log('userData: ', userData);
   const {cardIndex, cardOrientation} = userData
   // console.log('cardIndex: ', cardIndex);
-  const orientationWord = cardOrientation > 0 ? 'up' : 'rev'
-  const orientationKey = `meaning_${orientationWord}`
+  const orientationWord = cardOrientation == 0 ? 'up' : 'rev';
+  const orientationKey = `meaning_${orientationWord}`;
   const card = cards[cardIndex]
   // console.log('card: ', card);
   return card ? (
@@ -25,7 +25,7 @@ const JD = ({isDark}) => {
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <Container>
           <div className='flex column aic'>
-            <Card img={card.image} className='mb30'/>
+            <Card img={card.image} orientation={cardOrientation} className='mb30'/>
             <Description>
               {card[orientationKey]}
               <span className='italic ml5 opacity5'>

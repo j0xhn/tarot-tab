@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {generateUID, generateRandomDeckNumber, isToday} from '../utils'
+import {generateUID, generateRandomInteger, isToday} from '../utils'
 import store from 'local-storage'
 
 export const LS_KEY = 'tt_data'
@@ -36,10 +36,8 @@ export default () => {
     if (!hasReadInPast24Hours) {
       console.log('2. generating new')
       if (!uid) { uid = generateUID() }
-      const cardIndex = generateRandomDeckNumber()
-      const cardOrientation = cardIndex % 2 
-        ? 1 
-        : -1
+      const cardIndex = generateRandomInteger(0, 78);
+      const cardOrientation = generateRandomInteger(0, 1);
       const newData = {
         uid, 
         isDark: false,
