@@ -21,6 +21,7 @@ const JD = ({isDark}) => {
   const card = cards[cardIndex]
   // console.log('card: ', card);
   return card ? (
+    <>
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <Container>
           <div className='flex column aic'>
@@ -34,6 +35,14 @@ const JD = ({isDark}) => {
           </div>
       </Container>
     </ThemeProvider>
+    <ThemeProvider theme={isDark ? lightTheme : darkTheme}>
+      <Container>
+          <div className='flex column aic'>
+            FUUUUCK
+          </div>
+      </Container>
+    </ThemeProvider>
+    </>
   ) : null
 };
 
