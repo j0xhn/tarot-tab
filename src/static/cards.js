@@ -1,18 +1,18 @@
 export default [
+  // SUIT: ARCANA
   {
     "type": "major",
-    "name_short": "ar00",
+    "suit": "arcana",
+    "id": "ar00",
     "name": "The Fool",
-    "value": "0",
-    "value_int": 0,
-    'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-00-the-Fool.jpg',
+    "image": 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-00-the-Fool.jpg', // <= DOWNLOAD THIS, give same name as ID: "AR01"
     "meaning_up": "Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
     "meaning_rev": "Negligence, absence, distribution, carelessness, apathy, nullity, vanity.",
     "desc": "With light step, as if earth and its trammels had little power to restrain him, a young man in gorgeous vestments pauses at the brink of a precipice among the great heights of the world; he surveys the blue distance before him-its expanse of sky rather than the prospect below. His act of eager walking is still indicated, though he is stationary at the given moment; his dog is still bounding. The edge which opens on the depth has no terror; it is as if angels were waiting to uphold him, if it came about that he leaped from the height. His countenance is full of intelligence and expectant dream. He has a rose in one hand and in the other a costly wand, from which depends over his right shoulder a wallet curiously embroidered. He is a prince of the other world on his travels through this one-all amidst the morning glory, in the keen air. The sun, which shines behind him, knows whence he came, whither he is going, and how he will return by another path after many days. He is the spirit in search of experience. Many symbols of the Instituted Mysteries are summarized in this card, which reverses, under high warrants, all the confusions that have preceded it.\nIn his Manual of Cartomancy, Grand Orient has a curious suggestion of the office of Mystic Fool, as apart of his process in higher divination; but it might call for more than ordinary gifts to put it into operation. We shall see how the card fares according to the common arts of fortune-telling, and it will be an example, to those who can discern, of the fact, otherwise so evident, that the Trumps Major had no place originally in the arts of psychic gambling, when cards are used as the counters and pretexts. Of the circumstances under which this art arose we know, however, very little. The conventional explanations say that the Fool signifies the flesh, the sensitive life, and by a peculiar satire its subsidiary name was at one time the alchemist, as depicting folly at the most insensate stage."
   },
   {
     "type": "major",
-    "name_short": "ar01",
+    "id": "ar01",
     "name": "The Magician",
     "value": "01",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-01-Magician.jpg',
@@ -23,7 +23,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar02",
+    "id": "ar2",
     "name": "The High Priestess",
     "value": "02",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-02-High-Priestess.jpg',
@@ -34,7 +34,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar03",
+    "id": "ar03",
     "name": "The Empress",
     "value": "03",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-03-The-Empress.jpg',
@@ -45,7 +45,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar04",
+    "id": "ar04",
     "name": "The Emperor",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-04-Emperor.jpg',
     "value": "04",
@@ -56,7 +56,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar05",
+    "id": "ar05",
     "name": "The Hierophant",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/04/MA-05-the-hierophant.png',
     "value": "05",
@@ -67,7 +67,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar06",
+    "id": "ar06",
     "name": "The Lovers",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-06-the-lovers.jpg',
     "value": "06",
@@ -78,7 +78,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar07",
+    "id": "ar07",
     "name": "The Chariot",
     "value": "07",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-07-the-chariot.jpg',
@@ -89,7 +89,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar08",
+    "id": "ar08",
     "name": "Fortitude",
     "value": "08",
     "value_int": 8,
@@ -100,7 +100,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar09",
+    "id": "ar09",
     "name": "The Hermit",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-09-the-hermit.jpg',
     "value": "09",
@@ -111,7 +111,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar10",
+    "id": "ar10",
     "name": "Wheel Of Fortune",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-10-wheel-of-fortune.jpg',
     "value": "10",
@@ -122,7 +122,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar11",
+    "id": "ar11",
     "name": "Justice",
     "value": "11",
     "value_int": 11,
@@ -133,7 +133,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar12",
+    "id": "ar12",
     "name": "The Hanged Man",
     "value": "12",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/04/MA-12-the-hanged-man.png',
@@ -144,7 +144,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar13",
+    "id": "ar13",
     "name": "Death",
     "value": "13",
     "value_int": 13,
@@ -155,7 +155,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar14",
+    "id": "ar14",
     "name": "Temperance",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-14-Temperance.jpg',
     "value": "14",
@@ -166,7 +166,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar15",
+    "id": "ar15",
     "name": "The Devil",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-15-The-Devil.jpg',
     "value": "15",
@@ -177,7 +177,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar16",
+    "id": "ar16",
     "name": "The Tower",
     'image': 'https://www.biddytarot.com/tarot-card-meanings/major-arcana/tower/',
     "value": "16",
@@ -188,7 +188,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar17",
+    "id": "ar17",
     "name": "The Star",
     "value": "17",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-17-The-Star.jpg',
@@ -199,7 +199,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar18",
+    "id": "ar18",
     "name": "The Moon",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-18-The-Moon.jpg',
     "value": "18",
@@ -210,7 +210,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar19",
+    "id": "ar19",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-19-The-Sun.jpg',
     "name": "The Sun",
     "value": "19",
@@ -221,7 +221,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar20",
+    "id": "ar20",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-20-Judgement.jpg',
     "name": "The Last Judgment",
     "value": "20",
@@ -232,7 +232,7 @@ export default [
   },
   {
     "type": "major",
-    "name_short": "ar21",
+    "id": "ar21",
     "name": "The World",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-MA-21-The-World.jpg',
     "value": "21",
@@ -241,21 +241,21 @@ export default [
     "meaning_rev": "Inertia, fixity, stagnation, permanence.",
     "desc": "As this final message of the Major Trumps is unchanged--and indeed unchangeable--in respect of its design, it has been partly described already regarding its deeper sense. It represents also the perfection and end of the Cosmos, the secret which is within it, the rapture of the universe when it understands itself in God. It is further the state of the soul in the consciousness of Divine Vision, reflected from the self-knowing spirit. But these meanings are without prejudice to that which I have said concerning it on the material side.\nIt has more than one message on the macrocosmic side and is, for example, the state of the restored world when the law of manifestation shall have been carried to the highest degree of natural perfection. But it is perhaps more especially a story of the past, referring to that day when all was declared to be good, when the morning stars sang together and all the Sons of God shouted for joy. One of the worst explanations concerning it is that the figure symbolizes the Magus when he has reached the highest degree of initiation; another account says that it represents the absolute, which is ridiculous. The figure has been said to stand for Truth, which is, however, more properly allocated to the seventeenth card. Lastly, it has been called the Crown of the Magi."
   },
+  // SUIT: WANDS
   {
     "name": "Ace of Wands",
-    "name_short": "waac",
-    "value": "ace",
+    "id": "wa01",
     "value_int": 1,
     "suit": "wands",
-    'image': 'https://www.biddytarot.com/tarot-card-meanings/minor-arcana/suit-of-wands/king-of-wands/',
+    "image": 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-ace.jpg',
     "type": "minor",
     "meaning_up": "Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.",
     "meaning_rev": "Fall, decadence, ruin, perdition, to perish also a certain clouded joy.",
-    "desc": "A hand issuing from a cloud grasps a stout wand or club."
+    "desc": "In the Ace of Wands, a hand holding a sprouting wand extends out from a cloud, as if to offer a new opportunity or idea with the potential to grow. The rich, verdant landscape is further confirmation of this growth capability. In the distance on the left sits a castle, representing the promise of opportunities to come, and hills and mountains line the horizon. Their rolling peaks remind us that there will always be challenges along the way, but they are surmountable with enough effort."
   },
   {
     "name": "Two of Wands",
-    "name_short": "wa02",
+    "id": "wa02",
     "value": "two",
     "value_int": 2,
     "suit": "wands",
@@ -267,7 +267,7 @@ export default [
   },
   {
     "name": "Three of Wands",
-    "name_short": "wa03",
+    "id": "wa03",
     "value": "three",
     "value_int": 3,
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-03.jpg',
@@ -279,7 +279,7 @@ export default [
   },
   {
     "name": "Four of Wands",
-    "name_short": "wa04",
+    "id": "wa04",
     "value": "four",
     "value_int": 4,
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-04.jpg',
@@ -291,7 +291,7 @@ export default [
   },
   {
     "name": "Five of Wands",
-    "name_short": "wa05",
+    "id": "wa05",
     "value": "five",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-05.jpg',
     "value_int": 5,
@@ -303,7 +303,7 @@ export default [
   },
   {
     "name": "Six of Wands",
-    "name_short": "wa06",
+    "id": "wa06",
     "value": "six",
     "value_int": 6,
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-06.jpg',
@@ -315,7 +315,7 @@ export default [
   },
   {
     "name": "Seven of Wands",
-    "name_short": "wa07",
+    "id": "wa07",
     "value": "seven",
     "value_int": 7,
     "suit": "wands",
@@ -327,7 +327,7 @@ export default [
   },
   {
     "name": "Eight of Wands",
-    "name_short": "wa08",
+    "id": "wa08",
     "value": "eight",
     "value_int": 8,
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-08.jpg",
@@ -339,7 +339,7 @@ export default [
   },
   {
     "name": "Nine of Wands",
-    "name_short": "wa09",
+    "id": "wa09",
     "value": "nine",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-09.jpg",
     "suit": "wands",
@@ -352,7 +352,7 @@ export default [
   },
   {
     "name": "Ten of Wands",
-    "name_short": "wa10",
+    "id": "wa10",
     "value": "ten",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-10.jpg",
     "value_int": 10,
@@ -364,7 +364,7 @@ export default [
   },
   {
     "name": "Page of Wands",
-    "name_short": "wapa",
+    "id": "wapa",
     "value": "page",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-ace.jpg',
     "value_int": 11,
@@ -376,7 +376,7 @@ export default [
   },
   {
     "name": "Knight of Wands",
-    "name_short": "wakn",
+    "id": "wakn",
     "value": "knight",
     "value_int": 12,
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-knight.jpg',
@@ -388,7 +388,7 @@ export default [
   },
   {
     "name": "Queen of Wands",
-    "name_short": "waqu",
+    "id": "waqu",
     "value": "queen",
     "value_int": 13,
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-queen.jpg',
@@ -400,7 +400,7 @@ export default [
   },
   {
     "name": "King of Wands",
-    "name_short": "waki",
+    "id": "waki",
     "value": "king",
     "value_int": 14,
     "image": 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-WANDS-king.jpg',
@@ -410,9 +410,10 @@ export default [
     "meaning_rev": "Good, but severe; austere, yet tolerant.",
     "desc": "The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown. He connects with the symbol of the lion, which is emblazoned on the back of his throne."
   },
+  // SUIT: CUPS
   {
     "name": "Ace of Cups",
-    "name_short": "cuac",
+    "id": "cuac",
     "value": "ace",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-ace.jpg',
     "value_int": 1,
@@ -424,7 +425,7 @@ export default [
   },
   {
     "name": "Two of Cups",
-    "name_short": "cu02",
+    "id": "cu02",
     'image': 'https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-02.jpg',
     "value": "two",
     "value_int": 2,
@@ -436,7 +437,7 @@ export default [
   },
   {
     "name": "Three of Cups",
-    "name_short": "cu03",
+    "id": "cu03",
     'image': "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-03.jpg",
     "value": "three",
     "value_int": 3,
@@ -448,7 +449,7 @@ export default [
   },
   {
     "name": "Four of Cups",
-    "name_short": "cu04",
+    "id": "cu04",
     'image': "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-04.jpg",
     "value": "four",
     "value_int": 4,
@@ -460,7 +461,7 @@ export default [
   },
   {
     "name": "Five of Cups",
-    "name_short": "cu05",
+    "id": "cu05",
     "value": "five",
     'image': "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-05.jpg",
     "value_int": 5,
@@ -472,7 +473,7 @@ export default [
   },
   {
     "name": "Six of Cups",
-    "name_short": "cu06",
+    "id": "cu06",
     "value": "six",
     "value_int": 6,
     'image': "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-06.jpg",
@@ -484,7 +485,7 @@ export default [
   },
   {
     "name": "Seven of Cups",
-    "name_short": "cu07",
+    "id": "cu07",
     "value": "seven",
     "value_int": 7,
     'image': "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-07.jpg",
@@ -497,7 +498,7 @@ export default [
   },
   {
     "name": "Eight of Cups",
-    "name_short": "cu08",
+    "id": "cu08",
     "value": "eight",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-08.jpg",
     "value_int": 8,
@@ -509,7 +510,7 @@ export default [
   },
   {
     "name": "Nine of Cups",
-    "name_short": "cu09",
+    "id": "cu09",
     "value": "nine",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-09.jpg",
     "value_int": 9,
@@ -521,7 +522,7 @@ export default [
   },
   {
     "name": "Ten of Cups",
-    "name_short": "cu10",
+    "id": "cu10",
     "value": "ten",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-10.jpg",
     "value_int": 10,
@@ -533,7 +534,7 @@ export default [
   },
   {
     "name": "Page of Cups",
-    "name_short": "cup",
+    "id": "cu11",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-page.jpg",
     "value_int": 11,
     "correction": "JohnD",
@@ -545,7 +546,7 @@ export default [
   },
   {
     "name": "Knight of Cups",
-    "name_short": "cukn",
+    "id": "cukn",
     "value": "knight",
     "value_int": 12,
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-knight.jpg",
@@ -557,7 +558,7 @@ export default [
   },
   {
     "name": "Queen of Cups",
-    "name_short": "cuqu",
+    "id": "cuqu",
     "value": "queen",
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-queen.jpg",
     "value_int": 13,
@@ -569,7 +570,7 @@ export default [
   },
   {
     "name": "King of Cups",
-    "name_short": "cuki",
+    "id": "cuki",
     "value": "king",
     "value_int": 14,
     "image": "https://www.biddytarot.com/wp-content/uploads/2018/06/ET-CUPS-king.jpg",
@@ -579,9 +580,10 @@ export default [
     "meaning_rev": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
     "desc": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards."
   },
+  // SUIT: PENTACLES
   {
     "name":"Ace of Pentacles",
-    "name_short":"peac",
+    "id":"peac",
     "value":"ace",
     "value_int":1,
     "suit":"pentacles",
@@ -593,7 +595,7 @@ export default [
   },
   {
     "name":"Two of Pentacles",
-    "name_short":"pe02",
+    "id":"pe02",
     "value":"two",
     "value_int":2,
     "suit":"pentacles",
@@ -605,7 +607,7 @@ export default [
   },
   {
     "name":"Three of Pentacles",
-    "name_short":"pe03",
+    "id":"pe03",
     "value":"three",
     "value_int":3,
     "suit":"pentacles",
@@ -617,7 +619,7 @@ export default [
   },
   {
     "name":"Four of Pentacles",
-    "name_short":"pe04",
+    "id":"pe04",
     "value":"four",
     "value_int":4,
     "suit":"pentacles",
@@ -629,7 +631,7 @@ export default [
   },
   {
     "name":"Five of Pentacles",
-    "name_short":"pe05",
+    "id":"pe05",
     "value":"five",
     "value_int":5,
     "suit":"pentacles",
@@ -641,7 +643,7 @@ export default [
   },
   {
     "name":"Six of Pentacles",
-    "name_short":"pe06",
+    "id":"pe06",
     "value":"six",
     "value_int":6,
     "suit":"pentacles",
@@ -653,7 +655,7 @@ export default [
   },
   {
     "name":"Seven of Pentacles",
-    "name_short":"pe07",
+    "id":"pe07",
     "value":"seven",
     "value_int":7,
     "suit":"pentacles",
@@ -665,7 +667,7 @@ export default [
   },
   {
     "name":"Eight of Pentacles",
-    "name_short":"pe08",
+    "id":"pe08",
     "value":"eight",
     "value_int":8,
     "suit":"pentacles",
@@ -677,7 +679,7 @@ export default [
   },
   {
     "name":"Nine of Pentacles",
-    "name_short":"pe09",
+    "id":"pe09",
     "value":"nine",
     "value_int":9,
     "suit":"pentacles",
@@ -689,7 +691,7 @@ export default [
   },
   {
     "name":"Ten of Pentacles",
-    "name_short":"pe10",
+    "id":"pe10",
     "value":"ten",
     "value_int":10,
     "suit":"pentacles",
@@ -702,7 +704,7 @@ export default [
   {
     "name": "Page of Pentacles",
     "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-page.jpg",
-    "name_short": "pepa",
+    "id": "pepa",
     "value": "page",
     "value_int": 11,
     "suit": "pentacles",
@@ -714,7 +716,7 @@ export default [
   {
     "name": "Knight of Pentacles",
     "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-knight.jpg",
-    "name_short": "pekn",
+    "id": "pekn",
     "value": "knight",
     "value_int": 12,
     "suit": "pentacles",
@@ -726,7 +728,7 @@ export default [
   {
     "name": "Queen of Pentacles",
     "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-queen.jpg",
-    "name_short": "pequ",
+    "id": "pequ",
     "value": "queen",
     "value_int": 13,
     "suit": "pentacles",
@@ -738,7 +740,7 @@ export default [
   {
     "name": "King of Pentacles",
     "image":"https://www.biddytarot.com/wp-content/uploads/2018/06/ET-PENTACLES-king.jpg",
-    "name_short": "peki",
+    "id": "peki",
     "value": "king",
     "value_int": 14,
     "suit": "pentacles",
@@ -747,9 +749,10 @@ export default [
     "meaning_rev": "Vice, weakness, ugliness, perversity, corruption, peril.",
     "desc": "The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money."
   },
+  // SUIT: SWORDS
   {
     "name":"Ace of Swords",
-    "name_short":"swac",
+    "id":"sw01",
     "value":"ace",
     "value_int":1,
     "suit":"swords",
@@ -761,7 +764,7 @@ export default [
   },
   {
     "name":"Two of Swords",
-    "name_short":"sw02",
+    "id":"sw02",
     "value":"two",
     "value_int":2,
     "suit":"swords",
@@ -773,7 +776,7 @@ export default [
   },
   {
     "name":"Three of Swords",
-    "name_short":"sw03",
+    "id":"sw03",
     "value":"three",
     "value_int":3,
     "suit":"swords",
@@ -785,7 +788,7 @@ export default [
   },
   {
     "name":"Four of Swords",
-    "name_short":"sw04",
+    "id":"sw04",
     "value":"four",
     "value_int":4,
     "suit":"swords",
@@ -798,7 +801,7 @@ export default [
   },
   {
     "name":"Five of Swords",
-    "name_short":"sw05",
+    "id":"sw05",
     "value":"five",
     "value_int":5,
     "suit":"swords",
@@ -810,7 +813,7 @@ export default [
   },
   {
     "name":"Six of Swords",
-    "name_short":"sw06",
+    "id":"sw06",
     "value":"six",
     "value_int":6,
     "suit":"swords",
@@ -823,7 +826,7 @@ export default [
   },
   {
     "name":"Seven of Swords",
-    "name_short":"sw07",
+    "id":"sw07",
     "value":"seven",
     "value_int":7,
     "suit":"swords",
@@ -835,7 +838,7 @@ export default [
   },
   {
     "name":"Eight of Swords",
-    "name_short":"sw08",
+    "id":"sw08",
     "value":"eight",
     "value_int":8,
     "suit":"swords",
@@ -848,7 +851,7 @@ export default [
   },
   {
     "name":"Nine of Swords",
-    "name_short":"sw09",
+    "id":"sw09",
     "value":"nine",
     "value_int":9,
     "suit":"swords",
@@ -860,7 +863,7 @@ export default [
   },
   {
     "name":"Ten of Swords",
-    "name_short":"sw10",
+    "id":"sw10",
     "value":"ten",
     "value_int":10,
     "suit":"swords",
@@ -872,7 +875,7 @@ export default [
   },
   {
   "name":"Page of Swords",
-  "name_short":"swpa",
+  "id":"swpa",
   "value":"page",
   "value_int":11,
   "suit":"swords",
@@ -884,7 +887,7 @@ export default [
 },
 {
   "name":"Knight of Swords",
-  "name_short":"swkn",
+  "id":"swkn",
   "value":"knight",
   "value_int":12,
   "suit":"swords",
@@ -896,7 +899,7 @@ export default [
 },
 {
   "name":"Queen of Swords",
-  "name_short":"swqu",
+  "id":"swqu",
   "value":"queen",
   "value_int":13,
   "suit":"swords",
@@ -908,7 +911,7 @@ export default [
 },
 {
   "name":"King of Swords",
-  "name_short":"swki",
+  "id":"swki",
   "value":"king",
   "value_int":14,
   "suit":"swords",
