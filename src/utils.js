@@ -48,6 +48,10 @@ export function shuffle(array) {
   return array;
 }
 
+export const generateRandomInteger = (min, max) =>
+  Math.floor(Math.random() * (max - min)) + min;
+
+
 export const generateRandomDeckNumber = (meta = {}) => {
   const {cardsInDeck = 78} = meta
   const randomNumber = Math.floor(Math.random()*cardsInDeck) + 1

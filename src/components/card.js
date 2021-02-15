@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledImg = styled.img`
   margin:0px  -4px -7px;
   width:102%;
-  transform: ${props => `scale(${props.orientation}, ${props.orientation})`};
+  transform: ${props => `${props.cardOrientation * 180}deg)`};
   filter: grayscale(80%);
 `
 

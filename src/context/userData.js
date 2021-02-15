@@ -1,10 +1,17 @@
 import React, {useState, useEffect} from 'react'
-import {generateUID, generateRandomDeckNumber, isToday} from '../utils'
+import {generateUID, generateRandomInteger, isToday} from '../utils'
 import store from 'local-storage'
+
 export const LS_KEY = 'tt_data'
+
 export default () => {
   // check if data is stored in local cache, set as default data
   let cache = store.get(LS_KEY) || {}
+  const tarotTabStateHash = window.location.pathname.replace('/', '');
+  if (tarotTabStateHash) {
+    cache = JSON.parse(atob(tarotTabStateHash));
+  }
+
   const [data, setData] = useState(cache)
 
   const handleSetData = (incomingData) => {
@@ -29,10 +36,8 @@ export default () => {
     if (!hasReadInPast24Hours) {
       console.log('2. generating new')
       if (!uid) { uid = generateUID() }
-      const cardIndex = generateRandomDeckNumber()
-      const cardOrientation = cardIndex % 2 
-        ? 1 
-        : -1
+      const cardIndex = generateRandomInteger(0, 78);
+      const cardOrientation = generateRandomInteger(0, 1);
       const newData = {
         uid, 
         isDark: false,
